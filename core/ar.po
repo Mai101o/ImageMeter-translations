@@ -11,15 +11,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: ImageMeter\n"
 
-#, fuzzy
+
 msgctxt "error:InternalError"
 msgid "Internal error: {}."
 msgstr "خطأ داخلي: {}."
 
-#, fuzzy
+
 msgctxt "error:OutOfMemory:no_size"
 msgid "Out of memory"
-msgstr "خارج الذاكرة"
+msgstr "نفاد الذاكرة"
 
 #, fuzzy
 msgctxt "error:OutOfMemory:with_bytes_size"
@@ -79,7 +79,7 @@ msgstr "الملف غير موجود: \"{}\"."
 #, fuzzy
 msgctxt "error:Files_FileCannotBeOpened"
 msgid "Cannot open file \"{}\"."
-msgstr "لا يمكن فتح ملف \"{}\"."
+msgstr "لا يمكن فتح الملف \"{}\"."
 
 #, fuzzy
 msgctxt "error:Files_CannotDeleteFile"
@@ -169,7 +169,7 @@ msgstr "لا يمكن إنشاء ملف مؤقت."
 #, fuzzy
 msgctxt "error:ProjectFolder_CannotCreate"
 msgid "Cannot create folder '{}'."
-msgstr "لا استطيع انشاء مجلد '{}'."
+msgstr "لا يمكن إنشاء مجلد '{}'."
 
 #, fuzzy
 msgctxt "error:ProjectFolder_CannotWriteIFD"
@@ -379,7 +379,7 @@ msgstr "ملف ZIP تالف \"{}\"."
 #, fuzzy
 msgctxt "error:IMF_CorruptedFile"
 msgid "Corrupted IMF file."
-msgstr "ملف صندوق النقد الدولي معطوب."
+msgstr "ملف IMF تالف."
 
 #, fuzzy
 msgctxt "error:CannotGenerateCsv"
@@ -424,17 +424,17 @@ msgstr "لا يمكن حفظ إعدادات الصورة."
 #, fuzzy
 msgctxt "error:AppPreferences_CannotSetDataRootDirectory"
 msgid "Cannot set the data root directory."
-msgstr "لا يمكن تعيين الدليل الجذر للبيانات."
+msgstr "لا يمكن تعيين الدليل الجذري للبيانات."
 
 #, fuzzy
 msgctxt "error:AppPreferences_CannotCreateDataRootDirectory"
 msgid "Cannot create the data root directory."
-msgstr "لا يمكن إنشاء الدليل الجذر للبيانات."
+msgstr "لا يمكن إنشاء الدليل الجذري للبيانات."
 
 #, fuzzy
 msgctxt "error:AppPreferences_NoRootDefined"
 msgid "No data root directory defined."
-msgstr "لم يتم تحديد دليل جذر البيانات."
+msgstr "لم يتم تحديد دليل جذرب للبيانات."
 
 #, fuzzy
 msgctxt "error:ImageLibrary_NoLibraryDirectoryDefined"
@@ -454,7 +454,7 @@ msgstr "لا يمكن تسجيل الدخول إلى حساب الخادم ال�
 #, fuzzy
 msgctxt "error:Cloud_CannotLogin:unauthorized"
 msgid "Not authorized to sign in to your cloud server account."
-msgstr "غير مصرح له بتسجيل الدخول إلى حساب الخادم السحابي الخاص بك."
+msgstr "غير مصرح بتسجيل الدخول إلى حساب الخادم السحابي الخاص بك."
 
 #, fuzzy
 msgctxt "error:Cloud_CannotLogin:incorrect_password"
@@ -729,7 +729,7 @@ msgstr "خطأ HTTP 501: لم يتم التنفيذ"
 #, fuzzy
 msgctxt "error:HTTP-error-502"
 msgid "HTTP error 502 : Bad Gateway"
-msgstr "خطأ HTTP 502: بوابة غير صالحة"
+msgstr "خطأ HTTP 502: مدخل خاطئ"
 
 #, fuzzy
 msgctxt "error:HTTP-error-503"
@@ -739,7 +739,7 @@ msgstr "خطأ HTTP 503: الخدمة غير متاحة"
 #, fuzzy
 msgctxt "error:HTTP-error-504"
 msgid "HTTP error 504 : Gateway Timeout"
-msgstr "خطأ HTTP 504: مهلة البوابة"
+msgstr "خطأ HTTP 504: إنتهت المهلة"
 
 #, fuzzy
 msgctxt "error:NetworkError"
@@ -749,7 +749,7 @@ msgstr "خطأ في الشبكة: {}"
 #, fuzzy
 msgctxt "error:NetworkTimeout"
 msgid "Network timeout"
-msgstr "مهلة الشبكة"
+msgstr "إنتهت مهلة الشبكة"
 
 #, fuzzy
 msgctxt "error:Licensing_Desktop_InvalidServerResponse"
@@ -759,7 +759,7 @@ msgstr "استجابة الخادم غير صالحة: {}"
 #, fuzzy
 msgctxt "error:Licensing_Desktop_InvalidClientParameters"
 msgid "Invalid client parameters: {}"
-msgstr "معلمات العميل غير صالحة: {}"
+msgstr "معامل العميل غير صالحة: {}"
 
 #, fuzzy
 msgctxt "error:Licensing_Desktop_LicenseNotFound"
@@ -769,7 +769,7 @@ msgstr "رمز الترخيص غير صالح"
 #, fuzzy
 msgctxt "error:Licensing_Desktop_LicenseExpired"
 msgid "License has expired"
-msgstr "انتهت صلاحية رخصة"
+msgstr "انتهت صلاحية الرخصة"
 
 #, fuzzy
 msgctxt "error:Licensing_Desktop_LicenseQueryError"
@@ -889,7 +889,7 @@ msgstr "استثناء الأمان عند الوصول إلى URI '{}'."
 #, fuzzy
 msgctxt "error:Android_Import_IllegalStateException"
 msgid "Illegal state exception when accessing URI '{}'"
-msgstr "استثناء الحالة غير القانونية عند الوصول إلى URI '{}'"
+msgstr "استثناء حالة غير قانونية عند الوصول إلى URI '{}'"
 
 #, fuzzy
 msgctxt "error:Android_InsertImageIntoGallery"
@@ -929,7 +929,7 @@ msgstr "لم يتم تكوين أي كاميرا في التفضيلات."
 #, fuzzy
 msgctxt "error:UnknownCameraBackend"
 msgid "Unknown camera backend"
-msgstr "خلفية غير معروفة للكاميرا"
+msgstr "الواجهة الخلفية للكاميرا غير معروفة "
 
 #, fuzzy
 msgctxt "error:Daheng_Camera"
@@ -959,7 +959,7 @@ msgstr "الجهاز غير متصل"
 #, fuzzy
 msgctxt "error:Daheng_Camera:5"
 msgid "Invalid parameter"
-msgstr "معلمة غير صالحة"
+msgstr "معالم غير صالحة"
 
 #, fuzzy
 msgctxt "error:Daheng_Camera:6"
@@ -1014,7 +1014,7 @@ msgstr "خطأ غير معروف"
 #, fuzzy
 msgctxt "unit:translated-name:meter"
 msgid "m"
-msgstr "م"
+msgstr "متر"
 
 #, fuzzy
 msgctxt "unit:translated-name:inch"
@@ -1039,7 +1039,7 @@ msgstr "ميل"
 #, fuzzy
 msgctxt "unit:translated-name:mil"
 msgid "mil"
-msgstr "ميل"
+msgstr "مل"
 
 #, fuzzy
 msgctxt "unit:translated-name:meter2"
@@ -1129,7 +1129,7 @@ msgstr "راديان"
 #, fuzzy
 msgctxt "unit:translated-name:gradians(uppercase)"
 msgid "Gradians"
-msgstr "جراديانز"
+msgstr "غراديانز"
 
 #, fuzzy
 msgctxt "dimtemplate:length:decimal-metric"
@@ -1139,12 +1139,12 @@ msgstr "متري (1.00 م)"
 #, fuzzy
 msgctxt "dimtemplate:length:decimal-imperial"
 msgid "Imperial (1.00 ft)"
-msgstr "الإمبراطوري (1.00 قدم)"
+msgstr "إمبيريال (1.00 قدم)"
 
 #, fuzzy
 msgctxt "dimtemplate:length:imperial-interleaved"
 msgid "Imperial (1' 10 1/32\")"
-msgstr "إمبراطوري (1' 10 1/32\")"
+msgstr "إمبيريال (1' 10 1/32\")"
 
 #, fuzzy
 msgctxt "dimtemplate:length:imperial-fractional-inches"
@@ -1159,7 +1159,7 @@ msgstr "قياس"
 #, fuzzy
 msgctxt "dimtemplate:area:decimal-imperial"
 msgid "Imperial"
-msgstr "إمبراطوري"
+msgstr "إمبيريال"
 
 #, fuzzy
 msgctxt "labeltype:any"
@@ -1229,7 +1229,7 @@ msgstr "أصغر جزء من البوصة"
 #, fuzzy
 msgctxt "dimformat:options-ui:min-imperial-fraction:no-fraction"
 msgid "No fractions"
-msgstr "لا الكسور"
+msgstr "لا كسور"
 
 #, fuzzy
 msgctxt "dimformat:options-ui:min-imperial-fraction:n"
@@ -1239,12 +1239,12 @@ msgstr "الكسور حتى 1/{}"
 #, fuzzy
 msgctxt "dimformat:options-ui:imperial-uses-text-units:title"
 msgid "Textual imperial units"
-msgstr "الوحدات الإمبراطورية النصية"
+msgstr "الوحدات إمبيريال النصية"
 
 #, fuzzy
 msgctxt "dimformat:options-ui:imperial-uses-text-units:no"
 msgid "Show as '/\""
-msgstr "كما تظهر '/\""
+msgstr "كما يظهر '/\""
 
 #, fuzzy
 msgctxt "dimformat:options-ui:imperial-uses-text-units:yes"
@@ -1269,7 +1269,7 @@ msgstr "أرقام غامضة"
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:no"
 msgid "Keep"
-msgstr "يحفظ"
+msgstr "حفظ"
 
 #, fuzzy
 msgctxt "dimformat:options-ui:ambiguous-numbers:add-dot"
@@ -1334,12 +1334,12 @@ msgstr "مارس"
 #, fuzzy
 msgctxt "month-names-short-4"
 msgid "Apr"
-msgstr "أبريل"
+msgstr "آبريل"
 
 #, fuzzy
 msgctxt "month-names-short-5"
 msgid "May"
-msgstr "يمكن"
+msgstr "مايو"
 
 #, fuzzy
 msgctxt "month-names-short-6"
@@ -1364,7 +1364,7 @@ msgstr "سبتمبر"
 #, fuzzy
 msgctxt "month-names-short-10"
 msgid "Oct"
-msgstr "أكتوبر"
+msgstr "اكتوبر"
 
 #, fuzzy
 msgctxt "month-names-short-11"
@@ -1384,22 +1384,22 @@ msgstr "يناير"
 #, fuzzy
 msgctxt "month-names-long-2"
 msgid "February"
-msgstr "شهر فبراير"
+msgstr "فبراير"
 
 #, fuzzy
 msgctxt "month-names-long-3"
 msgid "March"
-msgstr "يمشي"
+msgstr "مارس"
 
 #, fuzzy
 msgctxt "month-names-long-4"
 msgid "April"
-msgstr "أبريل"
+msgstr "آبريل"
 
 #, fuzzy
 msgctxt "month-names-long-5"
 msgid "May"
-msgstr "يمكن"
+msgstr "مايو"
 
 #, fuzzy
 msgctxt "month-names-long-6"
@@ -1429,7 +1429,7 @@ msgstr "اكتوبر"
 #, fuzzy
 msgctxt "month-names-long-11"
 msgid "November"
-msgstr "شهر نوفمبر"
+msgstr "نوفمبر"
 
 #, fuzzy
 msgctxt "month-names-long-12"
@@ -1474,17 +1474,17 @@ msgstr "أسفل اليسار"
 #, fuzzy
 msgctxt "eight-directions:left"
 msgid "Left"
-msgstr "غادر"
+msgstr "يسار"
 
 #, fuzzy
 msgctxt "text-h-alignment:left"
 msgid "Left"
-msgstr "غادر"
+msgstr "يسار"
 
 #, fuzzy
 msgctxt "text-h-alignment:center"
 msgid "Center"
-msgstr "مركز"
+msgstr "الوسط"
 
 #, fuzzy
 msgctxt "text-h-alignment:right"
@@ -1494,7 +1494,7 @@ msgstr "يمين"
 #, fuzzy
 msgctxt "text-h-alignment:block"
 msgid "Block"
-msgstr "حاجز"
+msgstr "منع"
 
 #, fuzzy
 msgctxt "character:comma"
@@ -1509,7 +1509,7 @@ msgstr "فاصلة منقوطة"
 #, fuzzy
 msgctxt "character:colon"
 msgid "Colon"
-msgstr "القولون"
+msgstr "نقطتان رأسية"
 
 #, fuzzy
 msgctxt "character:dot"
@@ -1524,7 +1524,7 @@ msgstr "بالاسم، تصاعدي"
 #, fuzzy
 msgctxt "sorting:by-name:descending"
 msgid "by name, descending"
-msgstr "بالاسم، تنازليا"
+msgstr "بالاسم، تنازلي"
 
 #, fuzzy
 msgctxt "sorting:by-creation-date:ascending"
@@ -1559,7 +1559,7 @@ msgstr "حسب العدد، تنازليا"
 #, fuzzy
 msgctxt "AudioDecoder_avcodec:no-audio-stream-found"
 msgid "No audio stream in file."
-msgstr "لا يوجد دفق صوتي في الملف."
+msgstr "لا يوجد تدفق صوتي في الملف."
 
 #, fuzzy
 msgctxt "AudioDecoder_avcodec:unsupported-audio-codec"
@@ -1584,12 +1584,12 @@ msgstr "تنظيف الصور القديمة..."
 #, fuzzy
 msgctxt "splash:item-status:waiting"
 msgid "Waiting"
-msgstr "منتظر"
+msgstr "إنتظار"
 
 #, fuzzy
 msgctxt "splash:item-status:running"
 msgid "Running"
-msgstr "جري"
+msgstr "تشغيل"
 
 #, fuzzy
 msgctxt "splash:item-status:ok"
@@ -1614,17 +1614,17 @@ msgstr "تفاصيل…"
 #, fuzzy
 msgctxt "ui:list:add-entry"
 msgid "Add"
-msgstr "يضيف"
+msgstr "إضافة"
 
 #, fuzzy
 msgctxt "ui:list:remove-entry"
 msgid "Remove"
-msgstr "يزيل"
+msgstr "إزالة"
 
 #, fuzzy
 msgctxt "ui:list:move-entry-up"
 msgid "Up"
-msgstr "أعلى"
+msgstr "فوق"
 
 #, fuzzy
 msgctxt "ui:list:move-entry-down"
@@ -1654,7 +1654,7 @@ msgstr "لا تسأل مرة أخرى"
 #, fuzzy
 msgctxt "filename-copy-tag"
 msgid "copy"
-msgstr "ينسخ"
+msgstr "نسخ"
 
 #, fuzzy
 msgctxt "entities:cannot_delete_image:in_use"
@@ -1704,7 +1704,7 @@ msgstr "الانتقال إلى المجلد"
 #, fuzzy
 msgctxt "image-library:move:target-folder:description"
 msgid "Select the destination folder:"
-msgstr "حدد المجلد الوجهة:"
+msgstr " حدد وجهة المجلد :"
 
 #, fuzzy
 msgctxt "image-library:open-image:error:bundle-already-opened"
@@ -1844,7 +1844,7 @@ msgstr "يبدأ"
 #, fuzzy
 msgctxt "image-numbering:increment"
 msgid "Increment"
-msgstr "زيادة راتب"
+msgstr "زيادة "
 
 #, fuzzy
 msgctxt "image-numbering:section:renumber-existing-images"
@@ -1889,7 +1889,7 @@ msgstr "نسخ القياسات"
 #, fuzzy
 msgctxt "clipboard-paste-dialog:option:center-on-image"
 msgid "Center on image"
-msgstr "مركز على الصورة"
+msgstr "التركيز على الصورة"
 
 #, fuzzy
 msgctxt "import:open-image:without-import:file-dialog:title"
@@ -1919,7 +1919,7 @@ msgstr "دقة الإخراج صغيرة جدًا. الحد الأدنى هو {0
 #, fuzzy
 msgctxt "export:image-not-saved:dialog-title"
 msgid "Images with unsaved changes"
-msgstr "الصور ذات التغييرات غير المحفوظة"
+msgstr "الصور ذات التغييرات غير محفوظة"
 
 #, fuzzy
 msgctxt "export:image-not-saved:exporting-images-with-unsaved-changes:description"
@@ -1934,12 +1934,12 @@ msgstr "هل تريد حفظها قبل التصدير؟"
 #, fuzzy
 msgctxt "export:overwrite-plain-image:dialog-title"
 msgid "Destructive overwrite"
-msgstr "الكتابة المدمرة"
+msgstr "الكتابة فوقه"
 
 #, fuzzy
 msgctxt "export:overwrite-plain-image:message"
-msgid "If you overwrite the original image file '{}' with your annotations, you cannot change it later. The original image will be lost.\nIt is recommended to save to a different file or save as an IMI file that can still be edited lated."
-msgstr "إذا قمت بالكتابة فوق ملف الصورة الأصلي '{}' بالتعليقات التوضيحية، فلن تتمكن من تغييره لاحقًا. سيتم فقدان الصورة الأصلية.\nيوصى بالحفظ في ملف مختلف أو الحفظ كملف IMI الذي لا يزال من الممكن تحريره مؤخرًا."
+msgid "If you overwrite the original image file '{}' with your annotations, you cannot change it later. The original image will be lost.\nIt is recommended to save to a different file or save as an IMI file that can still be edited later."
+msgstr "إذا قمت بالكتابة فوق ملف الصورة الأصلي '{}' بالتعليقات التوضيحية، فلن تتمكن من تغييره لاحقًا. سيتم فقدان الصورة الأصلية.\nيوصى بالحفظ في ملف مختلف أو الحفظ كملف IMI الذي لا يزال من ممكن تحريره لاحقا."
 
 #, fuzzy
 msgctxt "export:overwrite-plain-image:button:save-as-image"
@@ -1959,12 +1959,12 @@ msgstr "إخراج الصور إلى الدليل"
 #, fuzzy
 msgctxt "export:image:invalid-filename-suffix"
 msgid "You specified an invalid file suffix (please use one of the supported formats)"
-msgstr "لقد حددت لاحقة ملف غير صالحة (يُرجى استخدام أحد التنسيقات المدعومة)"
+msgstr "لقد حددت ملف إلحاقي غير صالح (يُرجى استخدام أحد التنسيقات المدعومة)"
 
 #, fuzzy
 msgctxt "export:specific-format:invalid-filename-suffix"
 msgid "You cannot change the file type (must have {} suffix)"
-msgstr "لا يمكنك تغيير نوع الملف (يجب أن يحتوي على لاحقة {})"
+msgstr "لا يمكنك تغيير نوع الملف (يجب أن يحتوي على إلحاقي {})"
 
 #, fuzzy
 msgctxt "image-export:size:group-title"
@@ -1989,7 +1989,7 @@ msgstr "حجم مخصص"
 #, fuzzy
 msgctxt "image-export:format:group-title"
 msgid "Image format"
-msgstr "شكل صورة"
+msgstr "شكل الصورة"
 
 #, fuzzy
 msgctxt "image-export:format:file-format"
@@ -2074,7 +2074,7 @@ msgstr "الإزالة التلقائية للخلفية"
 #, fuzzy
 msgctxt "image-export:company-logo:auto-remove-background:info:description"
 msgid "Removes a solid background color from your logo image. For this to work, the logo must have a consistent background color (no gradient) and the image should preferably be a PNG image (not a JPEG), as the JPEG's compression artifacts can introduce color distortions that cannot be removed."
-msgstr "يزيل لون الخلفية الصلب من صورة الشعار الخاص بك. لكي ينجح هذا الأمر، يجب أن يكون للشعار لون خلفية ثابت (بدون تدرج) ويفضل أن تكون الصورة صورة PNG (وليست JPEG)، حيث يمكن أن تؤدي تأثيرات ضغط JPEG إلى تشوهات لونية لا يمكن إزالتها."
+msgstr "إزالة لون الخلفية الصلب من صورة الشعار الخاص بك. لكي ينجح هذا الأمر، يجب أن يكون للشعار لون خلفية ثابت (بدون تدرج) ويفضل أن تكون الصورة صورة PNG (وليست JPEG)، حيث يمكن أن تؤدي تأثيرات الضغط JPEG إلى تشوهات لونية لا يمكن إزالتها."
 
 #, fuzzy
 msgctxt "image-export:company-logo:auto-border-size"
@@ -2179,22 +2179,22 @@ msgstr "A4"
 #, fuzzy
 msgctxt "export:pdf:paper-size:a3"
 msgid "A3"
-msgstr "أ3"
+msgstr "A3"
 
 #, fuzzy
 msgctxt "export:pdf:paper-size:a2"
 msgid "A2"
-msgstr "أ2"
+msgstr "A2"
 
 #, fuzzy
 msgctxt "export:pdf:paper-size:a1"
 msgid "A1"
-msgstr "أ1"
+msgstr "A1"
 
 #, fuzzy
 msgctxt "export:pdf:paper-size:letter"
 msgid "Letter"
-msgstr "خطاب"
+msgstr "رسالة"
 
 #, fuzzy
 msgctxt "export:pdf:paper-size:legal"
@@ -2224,12 +2224,12 @@ msgstr "لن يتم تدوير الصور أبدًا"
 #, fuzzy
 msgctxt "export:pdf:images-per-page"
 msgid "Images per page"
-msgstr "الصور لكل صفحة"
+msgstr "صورة لكل صفحة"
 
 #, fuzzy
 msgctxt "export:pdf:images-per-page(pdf)"
 msgid "Images per PDF page"
-msgstr "الصور لكل صفحة PDF"
+msgstr " صورة لكل صفحة PDF"
 
 #, fuzzy
 msgctxt "export:pdf:images-per-page(pdf,long)"
@@ -2239,12 +2239,12 @@ msgstr "اطبع عدد الصور في كل صفحة PDF"
 #, fuzzy
 msgctxt "export:pdf:print-image-notes"
 msgid "Print image notes"
-msgstr "طباعة الملاحظات المصورة"
+msgstr "طباعة ملاحظات الصورة"
 
 #, fuzzy
 msgctxt "export:pdf:image-notes-space"
 msgid "Space reserved for image notes"
-msgstr "مساحة محجوزة لملاحظات الصورة"
+msgstr "المساحة محجوزة لملاحظات الصورة"
 
 #, fuzzy
 msgctxt "export:pdf:image-notes-space(short)"
@@ -2254,7 +2254,7 @@ msgstr "مساحة لملاحظات الصورة"
 #, fuzzy
 msgctxt "export:pdf:image-notes-space:do-not-print-notes"
 msgid "Do not print image notes"
-msgstr "لا تطبع الملاحظات المصورة"
+msgstr "لا تطبع الملاحظات للصورة"
 
 #, fuzzy
 msgctxt "export:pdf:image-notes-space:reserve-X-space"
@@ -2304,12 +2304,12 @@ msgstr "عناوين الأعمدة العمودية"
 #, fuzzy
 msgctxt "export:pdf:print-density"
 msgid "Resolution"
-msgstr "دقة"
+msgstr "الدقة"
 
 #, fuzzy
 msgctxt "export:pdf:print-density:default"
 msgid "Default"
-msgstr "تقصير"
+msgstr "الافتراضي"
 
 #, fuzzy
 msgctxt "export:pdf:print-density:custom"
@@ -2404,7 +2404,7 @@ msgstr "تضمين ملف PDF"
 #, fuzzy
 msgctxt "zip-export:include-imf-file"
 msgid "Include IMF file"
-msgstr "تضمين ملف صندوق النقد الدولي"
+msgstr "تضمين ملف IMF"
 
 #, fuzzy
 msgctxt "about-image:unknown-gps"
@@ -2424,7 +2424,7 @@ msgstr "اسم الصورة"
 #, fuzzy
 msgctxt "about-image:capture-date"
 msgid "Capture Date"
-msgstr "تاريخ الالتقاط"
+msgstr "تاريخ الإلتقاط"
 
 #, fuzzy
 msgctxt "about-image:creation-date"
@@ -2494,7 +2494,7 @@ msgstr "قانوني"
 #, fuzzy
 msgctxt "editor:rectref:standard-size:letter"
 msgid "Letter"
-msgstr "خطاب"
+msgstr "رسالة"
 
 #, fuzzy
 msgctxt "editor:rectref:standard-size:credit-card"
@@ -2514,7 +2514,7 @@ msgstr "تم تعديل الصورة"
 #, fuzzy
 msgctxt "editor:image-modified-dialog:text"
 msgid "Image has been modified. Do you want to save it?"
-msgstr "تم تعديل الصورة. هل تريد حفظه؟"
+msgstr "تم تعديل الصورة. هل تريد الحفظ؟"
 
 #, fuzzy
 msgctxt "editor:loaded-image-has-more-recent-version:title"
@@ -2544,12 +2544,12 @@ msgstr "هل مازلت تريد الكتابة فوق الملف؟"
 #, fuzzy
 msgctxt "editor:styling:line-caps"
 msgid "Line caps"
-msgstr "قبعات الخط"
+msgstr "شكل نهاية الخط"
 
 #, fuzzy
 msgctxt "editor:styling:line-caps-size"
 msgid "Line cap size"
-msgstr "حجم غطاء الخط"
+msgstr "حجم شكل نهاية الخط"
 
 #, fuzzy
 msgctxt "editor:styling:line-width"
@@ -2574,7 +2574,7 @@ msgstr "حجم الخط"
 #, fuzzy
 msgctxt "editor:styling:color"
 msgid "Color"
-msgstr "لون"
+msgstr "اللون"
 
 #, fuzzy
 msgctxt "editor:styling:fill-color"
@@ -2644,7 +2644,7 @@ msgstr "لوحة الألوان"
 #, fuzzy
 msgctxt "prefs:color-palette:active-palette"
 msgid "Active color palette"
-msgstr "لوحة الألوان النشطة"
+msgstr "لوحة الألوان نشطة"
 
 #, fuzzy
 msgctxt "prefs:color-palette:show-custom-colors"
@@ -2669,7 +2669,7 @@ msgstr "عدد الصفوف"
 #, fuzzy
 msgctxt "editor:styling:label:apply-to"
 msgid "Apply to …"
-msgstr "تنطبق على…"
+msgstr "تطبيق على…"
 
 #, fuzzy
 msgctxt "editor:styling:label:apply-to:both-sides"
@@ -2694,12 +2694,12 @@ msgstr "جميع الزوايا"
 #, fuzzy
 msgctxt "editor:styling:label:apply-to:all-radii"
 msgid "All radii"
-msgstr "كل نصف القطر"
+msgstr "كل أنصاف القطر"
 
 #, fuzzy
 msgctxt "editor:styling:label:apply-to:whole-element"
 msgid "Whole element"
-msgstr "عنصر كامل"
+msgstr "كل العنصر"
 
 #, fuzzy
 msgctxt "editor:styling:label:apply-to:whole-image"
@@ -2769,12 +2769,12 @@ msgstr "عرض الزاوية"
 #, fuzzy
 msgctxt "editor:styling:area:show-area-label"
 msgid "Show area"
-msgstr "منطقة العرض"
+msgstr "عرض المنطقة"
 
 #, fuzzy
 msgctxt "editor:styling:area:show-perimeter-label"
 msgid "Show perimeter"
-msgstr "عرض محيط"
+msgstr "عرض المحيط"
 
 #, fuzzy
 msgctxt "editor:styling:area:show-edge-labels"
@@ -2784,7 +2784,7 @@ msgstr "إظهار أطوال الحواف"
 #, fuzzy
 msgctxt "editor:styling:area:show-edge-labels:none"
 msgid "None"
-msgstr "لا أحد"
+msgstr "لا شيء"
 
 #, fuzzy
 msgctxt "editor:styling:area:show-edge-labels:custom"
@@ -2799,22 +2799,22 @@ msgstr "الجميع"
 #, fuzzy
 msgctxt "editor:styling:area:edge-labels-font-size"
 msgid "Edges font size"
-msgstr "حجم الخط الحواف"
+msgstr "حجم حواف الخط"
 
 #, fuzzy
 msgctxt "editor:styling:area:area-label-font-size"
 msgid "Area font size"
-msgstr "حجم الخط المنطقة"
+msgstr "حجم منطقة الخط"
 
 #, fuzzy
 msgctxt "editor:area:edit-mode:may-add-points"
 msgid "May add points"
-msgstr "قد تضيف نقاط"
+msgstr "قد يضيف نقاط"
 
 #, fuzzy
 msgctxt "editor:area:edit-mode:may-delete-points"
 msgid "May delete points"
-msgstr "قد حذف النقاط"
+msgstr "قد يحذف نقاط"
 
 #, fuzzy
 msgctxt "editor:styling:circle:show-radius-label"
@@ -2829,7 +2829,7 @@ msgstr "عرض القطر"
 #, fuzzy
 msgctxt "editor:styling:circle:show-circumference-label"
 msgid "Show circumference"
-msgstr "عرض محيط"
+msgstr " عرض محيط الدائرة"
 
 #, fuzzy
 msgctxt "editor:styling:circle:show-angle-label"
@@ -2839,7 +2839,7 @@ msgstr "عرض الزاوية"
 #, fuzzy
 msgctxt "editor:styling:circle:show-area-label"
 msgid "Show area"
-msgstr "منطقة العرض"
+msgstr "عرض المنطقة "
 
 #, fuzzy
 msgctxt "editor:styling:dimstring:show-intersection-marks"
@@ -2849,12 +2849,12 @@ msgstr "إظهار علامات التقاطع"
 #, fuzzy
 msgctxt "editor:dimstring:mode:add-measures"
 msgid "Add measures"
-msgstr "أضف التدابير"
+msgstr "أضف القياسات"
 
 #, fuzzy
 msgctxt "editor:dimstring:mode:move-measures"
 msgid "Move measures"
-msgstr "تحرك التدابير"
+msgstr "حرك القياسات"
 
 #, fuzzy
 msgctxt "editor:dimstring:mode:toggle-segments"
@@ -2894,7 +2894,7 @@ msgstr "إضافة سلسلة تراكمية"
 #, fuzzy
 msgctxt "editor:dimstring:func:swap-orientation"
 msgid "Swap orientation"
-msgstr "مبادلة الاتجاه"
+msgstr "مبادلة الإتجاه"
 
 #, fuzzy
 msgctxt "editor:styling:flatref:subdivisions"
@@ -2904,7 +2904,7 @@ msgstr "التقسيمات"
 #, fuzzy
 msgctxt "editor:styling:flatref:subdivisions:none"
 msgid "None"
-msgstr "لا أحد"
+msgstr "لا شيء"
 
 #, fuzzy
 msgctxt "editor:styling:flatref:display-labels"
@@ -2914,7 +2914,7 @@ msgstr "عرض التسميات"
 #, fuzzy
 msgctxt "editor:styling:flatref:display-labels:none"
 msgid "None"
-msgstr "لا أحد"
+msgstr "لا شيء"
 
 #, fuzzy
 msgctxt "editor:styling:flatref:display-labels:only-total-length"
@@ -2934,7 +2934,7 @@ msgstr "كل تسمية ثانية"
 #, fuzzy
 msgctxt "editor:styling:flatref:label-position"
 msgid "Label position"
-msgstr "موقف التسمية"
+msgstr "موقع التسمية"
 
 #, fuzzy
 msgctxt "editor:styling:flatref:label-position:above"
@@ -2944,17 +2944,17 @@ msgstr "فوق"
 #, fuzzy
 msgctxt "editor:styling:flatref:label-position:below"
 msgid "Below"
-msgstr "أقل"
+msgstr "أسفل"
 
 #, fuzzy
 msgctxt "editor:styling:flatref:label-position:alternating-last-above"
 msgid "Alternating, last one above"
-msgstr "بالتناوب، آخر واحد أعلاه"
+msgstr "بالتناوب، آخر واحدة أعلاهم"
 
 #, fuzzy
 msgctxt "editor:styling:flatref:label-position:alternating-last-below"
 msgid "Alternating, last one below"
-msgstr "بالتناوب، آخر واحد أدناه"
+msgstr "بالتناوب، آخر واحدة أدناهم"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:show-label"
@@ -2964,7 +2964,7 @@ msgstr "إظهار النص"
 #, fuzzy
 msgctxt "editor:styling:measurement-point:label-position"
 msgid "Label position"
-msgstr "موقف التسمية"
+msgstr "موقع التسمية"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol"
@@ -2979,17 +2979,17 @@ msgstr "لا يوجد رمز"
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:encircled-cross"
 msgid "Encircled cross"
-msgstr "صليب محاط"
+msgstr "تقاطع محاط"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:upright-cross"
 msgid "Upright cross"
-msgstr "صليب مستقيم"
+msgstr "تقاطع مستقيم"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:diagonal-cross"
 msgid "Diagonal cross"
-msgstr "صليب قطري"
+msgstr "تقاطع قطري"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:dot"
@@ -2999,22 +2999,22 @@ msgstr "نقطة"
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:elevation-top"
 msgid "Elevation top"
-msgstr "قمة الارتفاع"
+msgstr "قمة الإرتفاع"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:elevation-bottom"
 msgid "Elevation bottom"
-msgstr "ارتفاع القاع"
+msgstr "قاع الإرتفاع"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:tilt-left"
 msgid "Tilt left"
-msgstr "الميل اليسار"
+msgstr "الميل لليسار"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:tilt-right"
 msgid "Tilt right"
-msgstr "امالة لليمين"
+msgstr "الميل لليمين"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol:vtilt-left"
@@ -3029,12 +3029,12 @@ msgstr "إمالة على شكل حرف V لليمين"
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:left"
 msgid "L"
-msgstr "ل"
+msgstr "يسار"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-text:tilt:right"
 msgid "R"
-msgstr "ر"
+msgstr "يمين"
 
 #, fuzzy
 msgctxt "editor:styling:measurement-point:marker-symbol-size"
@@ -3054,7 +3054,7 @@ msgstr "أضف قياسًا"
 #, fuzzy
 msgctxt "editor:perspective-line:remove-measure"
 msgid "Remove measure"
-msgstr "إزالة التدبير"
+msgstr "إزالة القياس"
 
 #, fuzzy
 msgctxt "editor:styling:rectangle:show-side-lengths"
@@ -3069,7 +3069,7 @@ msgstr "منطقة العرض"
 #, fuzzy
 msgctxt "editor:styling:rectangle:show-perimeter"
 msgid "Show perimeter"
-msgstr "عرض محيط"
+msgstr "عرض المحيط"
 
 #, fuzzy
 msgctxt "editor:styling:rect-ref:show-side-lengths"
@@ -3134,12 +3134,12 @@ msgstr "محاذاة النص"
 #, fuzzy
 msgctxt "editor:styling:textbox:show-text-outline"
 msgid "Text outline"
-msgstr "مخطط النص"
+msgstr "تخطيط النص"
 
 #, fuzzy
 msgctxt "editor:styling:textbox:show-arrows"
 msgid "Show arrows"
-msgstr "السهام المعرض"
+msgstr "عرض السهام"
 
 #, fuzzy
 msgctxt "editor:styling:textbox:show-box-border"
@@ -3169,7 +3169,7 @@ msgstr "موضع الطول"
 #, fuzzy
 msgctxt "editor:styling:rounded-polyline:radius-label-position"
 msgid "Radius position"
-msgstr "موضع الشعاع"
+msgstr "موضع القطر"
 
 #, fuzzy
 msgctxt "editor:styling:rounded-polyline:angle-label-position"
@@ -3179,12 +3179,12 @@ msgstr "موضع الزاوية"
 #, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:none"
 msgid "Do not show"
-msgstr "لا تظهر"
+msgstr "لا تُظهِر"
 
 #, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:outside-along"
 msgid "Along line"
-msgstr "خط طويل"
+msgstr "إمتداد الخط "
 
 #, fuzzy
 msgctxt "editor:styling:rounded-polyline:edge-label-position:various"
@@ -3194,17 +3194,17 @@ msgstr "---"
 #, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:none"
 msgid "Do not show"
-msgstr "لا تظهر"
+msgstr "لا تُظهِر"
 
 #, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:inside"
 msgid "Inside"
-msgstr "داخل"
+msgstr "بالداخل"
 
 #, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:outside-along"
 msgid "Outside (along)"
-msgstr "خارج (على طول)"
+msgstr "خارج (على إمتداد)"
 
 #, fuzzy
 msgctxt "editor:styling:rounded-polyline:corner-label-position:outside-orthogonal"
@@ -3264,17 +3264,17 @@ msgstr "حذف الزاوية"
 #, fuzzy
 msgctxt "editor:rounded-polyline:action:open-contour"
 msgid "Open contour"
-msgstr "كفاف مفتوح"
+msgstr "محيط شكل مفتوح"
 
 #, fuzzy
 msgctxt "editor:rounded-polyline:action:close-contour"
 msgid "Close contour"
-msgstr "محيط قريب"
+msgstr "محيط شكل مغلق"
 
 #, fuzzy
 msgctxt "editor:rounded-polyline:action:expand"
 msgid "Expand"
-msgstr "يوسع"
+msgstr "توسيع"
 
 #, fuzzy
 msgctxt "editor:rounded-polyline:action:expand:invalid-expansion-offset"
@@ -3284,7 +3284,7 @@ msgstr "إزاحة التوسيع غير صالحة. قد تؤدي قيمة ال
 #, fuzzy
 msgctxt "editor:rounded-polyline:expand:dialog:window-title"
 msgid "Expand"
-msgstr "يوسع"
+msgstr "توسيع"
 
 #, fuzzy
 msgctxt "editor:rounded-polyline:expand:expand-by:prefix"
@@ -3354,7 +3354,7 @@ msgstr "قيمه البدايه"
 #, fuzzy
 msgctxt "editor:results-list:generic-counter"
 msgid "count"
-msgstr "عدد"
+msgstr "تعداد"
 
 #, fuzzy
 msgctxt "editor:styling:results-list:show-symbols"
@@ -3369,12 +3369,12 @@ msgstr "التشبع"
 #, fuzzy
 msgctxt "image-settings:image:brightness"
 msgid "Brightness"
-msgstr "سطوع"
+msgstr "السطوع"
 
 #, fuzzy
 msgctxt "image-settings:image:contrast"
 msgid "Contrast"
-msgstr "مقابلة"
+msgstr "التباين"
 
 #, fuzzy
 msgctxt "image-settings:image:color-preset:greyscale"
@@ -3434,7 +3434,7 @@ msgstr "لون الشبكة الخشنة"
 #, fuzzy
 msgctxt "image-settings:canvas:fine-grid-color"
 msgid "Fine grid color"
-msgstr "لون الشبكة الجميلة"
+msgstr "لون الشبكة الناعمة"
 
 #, fuzzy
 msgctxt "image-settings:canvas:enable-grid"
@@ -3499,12 +3499,12 @@ msgstr "وضع"
 #, fuzzy
 msgctxt "image-settings:secondary-label:mode:off"
 msgid "Off"
-msgstr "عن"
+msgstr "غلق"
 
 #, fuzzy
 msgctxt "image-settings:secondary-label:no-secondary-label"
 msgid "No secondary label"
-msgstr "لا يوجد تسمية ثانوية"
+msgstr "لا توجد تسمية ثانوية"
 
 #, fuzzy
 msgctxt "image-settings:secondary-label:alternative-unit"
@@ -3654,12 +3654,12 @@ msgstr "التقط الاتجاه H/V"
 #, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-hv-orientation:off"
 msgid "Off"
-msgstr "عن"
+msgstr "غلق"
 
 #, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-hv-orientation:only-when-attached"
 msgid "Only when attached to reference"
-msgstr "فقط عندما تعلق على المرجع"
+msgstr "فقط عندما يتصل مع المرجع"
 
 #, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-hv-orientation:use-nearest-reference"
@@ -3669,12 +3669,12 @@ msgstr "استخدم أقرب مرجع"
 #, fuzzy
 msgctxt "prefs:editor:snapping:snap-to-hv-orientation:on"
 msgid "On"
-msgstr "على"
+msgstr "فتح"
 
 #, fuzzy
 msgctxt "prefs:editor:snapping:snapping-strength"
 msgid "Snapping strength"
-msgstr "قوة العض"
+msgstr "قوة القص"
 
 #, fuzzy
 msgctxt "prefs:editor:snapping:snapping-strength:low"
@@ -3714,17 +3714,17 @@ msgstr "أدخل مسافة بالوحدة (على سبيل المثال، 10 س
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:group-title"
 msgid "Freehand"
-msgstr "الحرية"
+msgstr "يدوي"
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay"
 msgid "End freehand drawing delay"
-msgstr "إنهاء تأخير الرسم الحر"
+msgstr "إنهاء تأخير الرسم اليدوي"
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:off"
 msgid "Off"
-msgstr "عن"
+msgstr "غلق"
 
 #, fuzzy
 msgctxt "prefs:editor:drawing-tools:freehand:end-freehand-drawing-delay:short"
@@ -3854,17 +3854,17 @@ msgstr "اسم الجهاز"
 #, fuzzy
 msgctxt "prefs:bluetooth:device-list:please-identify"
 msgid "please identify"
-msgstr "يرجى تحديد"
+msgstr "يرجى التعريف"
 
 #, fuzzy
 msgctxt "prefs:bluetooth:scan-devices-button"
 msgid "Scan for devices"
-msgstr "مسح للأجهزة"
+msgstr "مسح على الأجهزة"
 
 #, fuzzy
 msgctxt "prefs:bluetooth:identify-device-button"
 msgid "Identify device"
-msgstr "تحديد الجهاز"
+msgstr "تعريف الجهاز"
 
 #, fuzzy
 msgctxt "prefs:bluetooth:choose-device-button"
@@ -3939,7 +3939,7 @@ msgstr "اسم"
 #, fuzzy
 msgctxt "prefs:template:list-header:type(pc)"
 msgid "Type"
-msgstr "يكتب"
+msgstr "نوع"
 
 #, fuzzy
 msgctxt "prefs:template:list:group-title(pc)"
@@ -3949,7 +3949,7 @@ msgstr "قوالب"
 #, fuzzy
 msgctxt "prefs:template:config:group-title(pc)"
 msgid "Template configuration"
-msgstr "تكوين القالب"
+msgstr "إعدادات القالب"
 
 #, fuzzy
 msgctxt "prefs:template:tags:list-title"
@@ -3964,7 +3964,7 @@ msgstr "تخطيطات الجدول"
 #, fuzzy
 msgctxt "prefs:template:table-layouts:edit-button"
 msgid "Edit"
-msgstr "يحرر"
+msgstr "تحرير"
 
 #, fuzzy
 msgctxt "prefs:template:tags:list-header:name"
@@ -3984,7 +3984,7 @@ msgstr "نوع المحتوى"
 #, fuzzy
 msgctxt "prefs:template:custom:tag:list-header:content-type:tooltip"
 msgid "The content type limits to which kind of elements the tag can be attached."
-msgstr "يحدد نوع المحتوى نوع العناصر التي يمكن إرفاق العلامة بها."
+msgstr " نوع المحتوى يحدد أي نوع من العناصر التي يمكن إرفاق العلامة بها."
 
 #, fuzzy
 msgctxt "prefs:template:tablespec:list-header:name"
@@ -4019,7 +4019,7 @@ msgstr "اسم العمود لهذه العلامة في إخراج الجدول
 #, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:subtract"
 msgid "Subtract"
-msgstr "طرح او خصم"
+msgstr " خصم"
 
 #, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:subtract:tooltip"
@@ -4034,7 +4034,7 @@ msgstr "عامل"
 #, fuzzy
 msgctxt "prefs:template:areasum:tags:list-header:factor:tooltip"
 msgid "The factor by which this area contributes to the sum."
-msgstr "العامل الذي تساهم به هذه المنطقة في المبلغ."
+msgstr "العامل الذي تساهم به هذه المنطقة في المجموع."
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:dialog-title"
@@ -4044,12 +4044,12 @@ msgstr "تحرير تخطيط جدول القالب المخصص"
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:dialog-title(short)"
 msgid "Custom Table Configuration"
-msgstr "تكوين الجدول المخصص"
+msgstr "إعداد الجدول المخصص"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:table-name-label"
 msgid "Table name"
-msgstr "اسم الطاولة"
+msgstr "اسم الجدول"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns-list-label"
@@ -4079,7 +4079,7 @@ msgstr "محتوى"
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:list-header:measure"
 msgid "Measure"
-msgstr "يقيس"
+msgstr "قياس"
 
 #, fuzzy
 msgctxt "prefs:template:custom:tablespec:columns:list-header:multiple-values"
@@ -4146,7 +4146,7 @@ msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip-title"
 msgid "Footer row content"
 msgstr "محتوى صف التذييل"
 
-#, fuzzy
+#, fuzzy Checked until here...
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip"
 msgid "What to place in the footer row of the table. Options include the sum of all values in the column, the maximum, the average, and other options."
 msgstr "ما يجب وضعه في صف تذييل الجدول. تتضمن الخيارات مجموع كل القيم في العمود، والحد الأقصى، والمتوسط، والخيارات الأخرى."
