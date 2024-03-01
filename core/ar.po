@@ -4759,7 +4759,7 @@ msgstr "رابط خريطة جي بي اس"
 #, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:url:text"
 msgid "link"
-msgstr "وصلة"
+msgstr "رابط"
 
 #, fuzzy
 msgctxt "templ:custom:column-content:image-map-link:error:no-gps"
@@ -4809,7 +4809,7 @@ msgstr "عداد"
 #, fuzzy
 msgctxt "templ:custom:tag:property-name"
 msgid "Tag"
-msgstr "بطاقة شعار"
+msgstr "علامة"
 
 #, fuzzy
 msgctxt "templ:areasum:class-display-name"
@@ -4834,7 +4834,7 @@ msgstr "هذا القالب هو الأساس لحسابات المنطقة. ت�
 #, fuzzy
 msgctxt "templ:areasum:tag:property-name"
 msgid "Tag"
-msgstr "بطاقة شعار"
+msgstr " علامة"
 
 #, fuzzy
 msgctxt "templ:areasum:wallarea:new-template-name"
@@ -4854,7 +4854,7 @@ msgstr "مخصص (إضافة)"
 #, fuzzy
 msgctxt "templ:areasum:custom-minus"
 msgid "custom (subtract)"
-msgstr "مخصص (طرح)"
+msgstr "مخصص (إنقاص)"
 
 #, fuzzy
 msgctxt "templ:areasum:wallarea:wall"
@@ -4909,7 +4909,7 @@ msgstr "شرفة"
 #, fuzzy
 msgctxt "templ:areasum:table-column-header:item"
 msgid "Pos."
-msgstr "نقاط البيع."
+msgstr "Pos."
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-header:description"
@@ -4944,7 +4944,7 @@ msgstr "منطقة"
 #, fuzzy
 msgctxt "templ:areasum:table-column-header:deduction"
 msgid "Deduction"
-msgstr "المستقطع"
+msgstr "إستقطاع"
 
 #, fuzzy
 msgctxt "templ:areasum:table-column-header:sumarea"
@@ -4954,7 +4954,7 @@ msgstr "مجموع"
 #, fuzzy
 msgctxt "templ:areasum:item"
 msgid "Item Number"
-msgstr "رقم الشيء"
+msgstr "رقم الغرض"
 
 #, fuzzy
 msgctxt "templ:areasum:description"
@@ -5081,10 +5081,10 @@ msgctxt "templ:partslist:tablespec:new"
 msgid "New table"
 msgstr "طاولة جديدة"
 
-#, fuzzy
+#, fuzzy 
 msgctxt "templ:partslist:tag:tag"
 msgid "Tag"
-msgstr "بطاقة شعار"
+msgstr "علامة"
 
 #, fuzzy
 msgctxt "templ:partslist:tag:name"
@@ -5131,7 +5131,7 @@ msgctxt "templ:partslist:columnheader:count"
 msgid "Count"
 msgstr "عدد"
 
-#, fuzzy
+#, fuzzy CHECKED UNTIL HERE... 
 msgctxt "templ:partslist:columnheader:quantity"
 msgid "Qty"
 msgstr "الكمية"
