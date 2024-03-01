@@ -4146,7 +4146,7 @@ msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip-title"
 msgid "Footer row content"
 msgstr "محتوى صف التذييل"
 
-#, fuzzy Checked until here...
+#, fuzzy 
 msgctxt "prefs:template:custom:tablespec:columns:footer-row:tooltip"
 msgid "What to place in the footer row of the table. Options include the sum of all values in the column, the maximum, the average, and other options."
 msgstr "ما يجب وضعه في صف تذييل الجدول. تتضمن الخيارات مجموع كل القيم في العمود، والحد الأقصى، والمتوسط، والخيارات الأخرى."
@@ -4164,7 +4164,7 @@ msgstr "تحرير تخطيط الجدول لقالب قائمة الأجزاء"
 #, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-number:none"
 msgid "None"
-msgstr "لا أحد"
+msgstr "لا شيء"
 
 #, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-number:only-element"
@@ -4209,12 +4209,12 @@ msgstr "اسم الطاولة"
 #, fuzzy
 msgctxt "prefs:template:partslist:tablespec:column-config:title"
 msgid "Columns configuration"
-msgstr "تكوين الأعمدة"
+msgstr "إعدادات الأعمدة"
 
 #, fuzzy
 msgctxt "prefs:template:partslist:tablespec:item-number"
 msgid "Item number"
-msgstr "رقم الشيء"
+msgstr "رقم الغرض"
 
 #, fuzzy
 msgctxt "prefs:template:partslist:tablespec:tag-name"
@@ -4284,7 +4284,7 @@ msgstr "مكافحة التعرج في المحرر"
 #, fuzzy
 msgctxt "prefs:ui:editor:anti-aliasing:off"
 msgid "Off"
-msgstr "عن"
+msgstr "غلق"
 
 #, fuzzy
 msgctxt "prefs:ui:language"
@@ -4389,7 +4389,7 @@ msgstr "حدد جهاز إدخال الصوت"
 #, fuzzy
 msgctxt "prefs:audio-input:button:test"
 msgid "Test"
-msgstr "امتحان"
+msgstr "تجريب"
 
 #, fuzzy
 msgctxt "prefs:ui:audio-input-device"
@@ -4399,7 +4399,7 @@ msgstr "جهاز إدخال الصوت"
 #, fuzzy
 msgctxt "prefs:ui:audio-input-device:button:choose"
 msgid "Choose"
-msgstr "يختار"
+msgstr "إختيار"
 
 #, fuzzy
 msgctxt "prefs:ui:enable-experimental-dxf-export"
@@ -4439,7 +4439,7 @@ msgstr "الاسم الكامل"
 #, fuzzy
 msgctxt "prefs:camera:camera-name"
 msgid "Camera"
-msgstr "آلة تصوير"
+msgstr " الكاميرا"
 
 #, fuzzy
 msgctxt "prefs:camera:camera-resolution"
@@ -4459,7 +4459,7 @@ msgstr "وقت التعرض"
 #, fuzzy
 msgctxt "prefs:camera:camera-auto-exposure:target-grey-level"
 msgid "Exposure target grey level"
-msgstr "التعرض للمستوى الرمادي المستهدف"
+msgstr "التعرض للمستوى الرمادي للمستهدف"
 
 #, fuzzy
 msgctxt "prefs:camera:camera-exposure-mode"
@@ -4479,22 +4479,22 @@ msgstr "مستوى رمادي تلقائي"
 #, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-left"
 msgid "ROI crop left"
-msgstr "اقتصاص عائد الاستثمار على اليسار"
+msgstr "اقتصاص ROI على اليسار"
 
 #, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-right"
 msgid "ROI crop right"
-msgstr "عائد الاستثمار صحيح"
+msgstr "إقتصاص ROI على اليمين "
 
 #, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-top"
 msgid "ROI crop top"
-msgstr "أعلى المحاصيل العائد على الاستثمار"
+msgstr "إقتصاص ROI من فوق"
 
 #, fuzzy
 msgctxt "prefs:camera:camera-roi:crop-bottom"
 msgid "ROI crop bottom"
-msgstr "عائد الاستثمار (ROI) في الأسفل"
+msgstr "قتصاص ROI من الأسفل "
 
 #, fuzzy
 msgctxt "prefs:camera:calibration:title"
@@ -4519,7 +4519,7 @@ msgstr "إزالة المعايرة"
 #, fuzzy
 msgctxt "prefs:camera:camera-list:none"
 msgid "None"
-msgstr "لا أحد"
+msgstr "لا شيء"
 
 #, fuzzy
 msgctxt "prefs:sync:twoway-and-anno-directories-must-be-different:msg"
@@ -4564,17 +4564,17 @@ msgstr "القيمة المستلمة:"
 #, fuzzy
 msgctxt "bluetooth:device-test:connect-button"
 msgid "Connect"
-msgstr "يتصل"
+msgstr "إتصال"
 
 #, fuzzy
 msgctxt "bluetooth:device-test:disconnect-button"
 msgid "Disconnect"
-msgstr "قطع الاتصال"
+msgstr "قطع الإتصال"
 
 #, fuzzy
 msgctxt "bluetooth:device-test:trigger-button"
 msgid "Remote trigger"
-msgstr "الزناد عن بعد"
+msgstr "الضغط عن بعد"
 
 #, fuzzy
 msgctxt "bluetooth:origin-position:front"
@@ -4624,12 +4624,12 @@ msgstr "متصل. انقر لقطع الاتصال."
 #, fuzzy
 msgctxt "bluetooth:toolbar:connect:tooltip(connecting)"
 msgid "Trying to connect to device."
-msgstr "تحاول الاتصال بالجهاز."
+msgstr "محاولة الإتصال بالجهاز."
 
 #, fuzzy
 msgctxt "bluetooth:toolbar:connect:tooltip(waiting-for-reconnect)"
 msgid "Will try to reconnect after a small pause."
-msgstr "سنحاول إعادة الاتصال بعد توقف قصير."
+msgstr "سنحاول إعادة الإتصال بعد توقف قصير."
 
 #, fuzzy
 msgctxt "bluetooth:toolbar:trigger:tooltip"
@@ -4644,12 +4644,12 @@ msgstr "الجهاز لا يدعم التشغيل عن بعد."
 #, fuzzy
 msgctxt "bluetooth:toolbar:measures-history:tooltip"
 msgid "Measures history"
-msgstr "قياسات التاريخ"
+msgstr " تاريخ القياسات "
 
 #, fuzzy
 msgctxt "bluetooth:toolbar:measures-history:clear"
 msgid "Clear"
-msgstr "واضح"
+msgstr "مسح"
 
 #, fuzzy
 msgctxt "live-camera:editor-window:title"
